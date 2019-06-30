@@ -6,6 +6,36 @@
         }
     }
 
+    @media (max-width: 1024px) {
+        .tm-hero img
+        {
+            min-height: 550px;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .uk-text-lead {
+            font-size: 1.1rem !important;
+        }
+        .tm-hero img
+        {
+            min-height: 450px;
+        }
+
+        .tm-herotext-block { margin-top: 100px;}
+
+        .tm-herotext-block .uk-h1 {
+            font-size: 1.9rem;
+        }
+        .hero-text {
+            background: #ffffffb5;
+            padding: 14px;
+        }
+        .tm-title-lead .uk-width-1-2 {
+            width: 70% !important;
+        }
+    }
+
     @media (min-width: 960px) {
         .tm-page {
             border: 30px solid transparent;
@@ -44,6 +74,10 @@
         background: rgba(255, 255, 255, 0.9);
     }
 
+    .tm-container-medium {
+        max-width: 1100px !important;
+    }
+
     .footer_bottom {
         background: #292929;
     }
@@ -80,6 +114,10 @@
         height: 600px;
     }
 
+    .tm-text-descr {
+        font-size: 0.9rem;
+    }
+
     .uk-overlay-primary {
         background: rgba(34, 34, 34, 0.46);
     }
@@ -98,6 +136,21 @@
         color: #8a8a8a;
         font-size: 13px;
     }
+
+    .uk-offcanvas-bar .uk-nav-default>li>a {
+        color: rgba(0, 0, 0, 0.69);
+    }
+    .uk-offcanvas-bar .uk-nav-default>li.uk-active>a {
+        color: #03af33;
+    }
+    .uk-offcanvas-bar {
+        background: #fff;
+    }
+    .uk-close {
+        color: #999 !important;
+    }
+
+
 
 </style>
 
@@ -200,8 +253,8 @@
                          data-srcset="image/catalog/landp/cab-nush/0.jpg"
                          sizes="(min-width: 650px) 650px, 200vw" width="1792" height="773" alt="" uk-img >
 
-                    <div class="uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-container-expand uk-section">
-                        <div class="el-overlay uk-panel uk-width-xlarge uk-margin-remove-first-child uk-margin-medium-top">
+                    <div class="tm-herotext-block uk-position-cover uk-flex uk-flex-left uk-flex-middle uk-container uk-container-expand uk-section">
+                        <div class="el-overlay uk-panel uk-width-xlarge uk-margin-remove-first-child ">
 
                             <div class="hero-title uk-h1 uk-text-uppercase uk-margin-top uk-margin-remove-bottom"  style="transform: translateY(0px);">Оформлення <br>кабінетів НУШ</div>
                             <div class="hero-text uk-h5 uk-margin-top uk-margin-remove-bottom"  style="transform: translateX(0px);">
@@ -218,7 +271,7 @@
         </div>
     </div>
 
-    <div class="uk-container">
+    <div class="uk-container tm-container-medium">
         <div id="system-message-container" data-messages="[]"> </div>
 
         <div class="uk-section uk-section-default">
@@ -226,12 +279,12 @@
             <div class="uk-grid-medium uk-grid-margin-medium uk-grid uk-grid-stack" uk-grid="">
                 <div class="uk-grid-item-match uk-flex-middle uk-width-1-1@m uk-first-column">
 
-                    <div class="uk-panel uk-width-1-1">
+                    <div class="uk-panel uk-width-1-1 tm-title-lead">
 
                         <h2 class="uk-h2 uk-text-center uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style="">КАБІНЕТИ</h2>
                         <div class="tm-divider-icon uk-width-medium uk-margin-auto uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style=""></div>
 
-                        <div class="uk-margin-small-top uk-width-1-2 uk-margin-auto">
+                        <div class="uk-margin-small-top uk-width-1-2  uk-margin-auto">
                             <div class="uk-h3 uk-text-lead uk-text-center">Де кожен елемент оформлення класу важливий у прагненні віднайти ідеальний спосіб навчання.</div>
 
                         </div>
@@ -263,7 +316,7 @@
             <div class="uk-grid-medium uk-grid-margin-medium uk-grid uk-grid-stack" uk-grid="">
                 <div class="uk-grid-item-match uk-flex-middle uk-width-1-1@m uk-first-column">
 
-                    <div class="uk-panel uk-width-1-1">
+                    <div class="uk-panel uk-width-1-1 tm-title-lead">
 
                         <h2 class="uk-h2 uk-text-center uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style="">ІГРОВІ КІМНАТИ</h2>
                         <div class="tm-divider-icon uk-width-medium uk-margin-auto uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style=""></div>
@@ -300,7 +353,7 @@
             <div class="uk-grid-medium uk-grid-margin-medium uk-grid uk-grid-stack" uk-grid="">
                 <div class="uk-grid-item-match uk-flex-middle uk-width-1-1@m uk-first-column">
 
-                    <div class="uk-panel uk-width-1-1">
+                    <div class="uk-panel uk-width-1-1 tm-title-lead">
 
                         <h2 class="uk-h2 uk-text-center uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style="">ПРОСТІР ДЛЯ ТВОРЧОСТІ</h2>
                         <div class="tm-divider-icon uk-width-medium uk-margin-auto uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style=""></div>
@@ -337,7 +390,7 @@
             <div class="uk-grid-medium uk-grid-margin-medium uk-grid uk-grid-stack" uk-grid="">
                 <div class="uk-grid-item-match uk-flex-middle uk-width-1-1@m uk-first-column">
 
-                    <div class="uk-panel uk-width-1-1">
+                    <div class="uk-panel uk-width-1-1 tm-title-lead">
 
                         <h2 class="uk-h2 uk-text-center uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style="">ЗАЛИ ДЛЯ СПОРТУ ТА ЛФК</h2>
                         <div class="tm-divider-icon uk-width-medium uk-margin-auto uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style=""></div>
@@ -374,7 +427,7 @@
             <div class="uk-grid-medium uk-grid-margin-medium uk-grid uk-grid-stack" uk-grid="">
                 <div class="uk-grid-item-match uk-flex-middle uk-width-1-1@m uk-first-column">
 
-                    <div class="uk-panel uk-width-1-1">
+                    <div class="uk-panel uk-width-1-1 tm-title-lead">
 
                         <h2 class="uk-h2 uk-text-center uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style="">РОЗДЯГАЛЬНІ</h2>
                         <div class="tm-divider-icon uk-width-medium uk-margin-auto uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style=""></div>
@@ -411,7 +464,7 @@
             <div class="uk-grid-medium uk-grid-margin-medium uk-grid uk-grid-stack" uk-grid="">
                 <div class="uk-grid-item-match uk-flex-middle uk-width-1-1@m uk-first-column">
 
-                    <div class="uk-panel uk-width-1-1">
+                    <div class="uk-panel uk-width-1-1 tm-title-lead">
 
                         <h2 class="uk-h2 uk-text-center uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style="">РЕКРЕАЦІЙНІ ЗОНИ У КОРИДОРАХ</h2>
                         <div class="tm-divider-icon uk-width-medium uk-margin-auto uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class="" style=""></div>
@@ -448,7 +501,7 @@
     </div>
 
     <div class="article-section uk-margin-large-top uk-margin-large-bottom">
-            <div class="uk-container">
+            <div class="tm-text-descr uk-container uk-container-small uk-text-justify">
                 <?php echo $description; ?>
             </div>
     </div>
