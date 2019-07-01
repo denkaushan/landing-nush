@@ -126,7 +126,7 @@
 
     .uk-text-lead {
         font-size: 1.5rem;
-        line-height: 1.4;
+        line-height: 1.42;
         color: #8b8e97;
     }
 
