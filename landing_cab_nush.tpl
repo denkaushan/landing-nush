@@ -30,6 +30,8 @@
         .hero-text {
             background: #ffffffb5;
             padding: 14px;
+            font-size: 0.9rem;
+            line-height: 1.2rem;
         }
         .tm-title-lead .uk-width-1-2 {
             width: 70% !important;
